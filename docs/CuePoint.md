@@ -1,4 +1,4 @@
-# OpenapiClient::CuePoint
+# BrightcoveLive::CuePoint
 
 ## Properties
 Name | Type | Description | Notes

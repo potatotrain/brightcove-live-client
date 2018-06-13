@@ -1,4 +1,4 @@
-# OpenapiClient::JobInputMediaFile
+# BrightcoveLive::JobInputMediaFile
 
 ## Properties
 Name | Type | Description | Notes

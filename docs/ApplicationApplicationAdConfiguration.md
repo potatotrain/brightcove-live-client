@@ -1,4 +1,4 @@
-# OpenapiClient::ApplicationApplicationAdConfiguration
+# BrightcoveLive::ApplicationApplicationAdConfiguration
 
 ## Properties
 Name | Type | Description | Notes

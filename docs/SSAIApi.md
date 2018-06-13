@@ -1,4 +1,4 @@
-# OpenapiClient::SSAIApi
+# BrightcoveLive::SSAIApi
 
 All URIs are relative to *https://api.bcovlive.io*
 
@@ -31,18 +31,18 @@ Create a configuration for server-side ad application.
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::SSAIApi.new
+api_instance = BrightcoveLive::SSAIApi.new
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
-create_ad_configurationbody = OpenapiClient::CreateAdConfigurationbody.new # CreateAdConfigurationbody | Create a configuration for server-side ad application.
+create_ad_configurationbody = BrightcoveLive::CreateAdConfigurationbody.new # CreateAdConfigurationbody | Create a configuration for server-side ad application.
 
 begin
   #Create_Ad_Configuration
   result = api_instance.create_ad_configuration(content_type, x_api_key, create_ad_configurationbody)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling SSAIApi->create_ad_configuration: #{e}"
 end
 ```
@@ -80,18 +80,18 @@ Beacons are data points on playback sent to ad servers to track whether and how 
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::SSAIApi.new
+api_instance = BrightcoveLive::SSAIApi.new
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
-create_beacon_setbody = OpenapiClient::CreateBeaconSetbody.new # CreateBeaconSetbody | Beacons are data points on playback sent to ad servers to track whether and how much of ads were played. Creates a beacon set.
+create_beacon_setbody = BrightcoveLive::CreateBeaconSetbody.new # CreateBeaconSetbody | Beacons are data points on playback sent to ad servers to track whether and how much of ads were played. Creates a beacon set.
 
 begin
   #Create_beacon_set
   result = api_instance.create_beacon_set(content_type, x_api_key, create_beacon_setbody)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling SSAIApi->create_beacon_set: #{e}"
 end
 ```
@@ -129,9 +129,9 @@ Delete an ad application.
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::SSAIApi.new
+api_instance = BrightcoveLive::SSAIApi.new
 application_id = 'application_id_example' # String | The ad application id
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
@@ -140,7 +140,7 @@ begin
   #Delete_Ad_Configuration
   result = api_instance.delete_ad_configuration(application_id, content_type, x_api_key)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling SSAIApi->delete_ad_configuration: #{e}"
 end
 ```
@@ -178,9 +178,9 @@ Deletes a beacon set.
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::SSAIApi.new
+api_instance = BrightcoveLive::SSAIApi.new
 beacon_set_id = 'beacon_set_id_example' # String | A slate media asset ID
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
@@ -189,7 +189,7 @@ begin
   #Delete_beacon_set
   result = api_instance.delete_beacon_set(beacon_set_id, content_type, x_api_key)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling SSAIApi->delete_beacon_set: #{e}"
 end
 ```
@@ -227,9 +227,9 @@ Delete Slate Media Source Asset.
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::SSAIApi.new
+api_instance = BrightcoveLive::SSAIApi.new
 slate_msa_id = 'slate_msa_id_example' # String | A slate media asset ID
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
@@ -238,7 +238,7 @@ begin
   #Delete_Slate_Media_Source_Asset
   result = api_instance.delete_slate_media_source_asset(slate_msa_id, content_type, x_api_key)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling SSAIApi->delete_slate_media_source_asset: #{e}"
 end
 ```
@@ -276,9 +276,9 @@ Get ad applications for an account.
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::SSAIApi.new
+api_instance = BrightcoveLive::SSAIApi.new
 account_id = 'account_id_example' # String | Live account ID
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
@@ -287,7 +287,7 @@ begin
   #Get_Account_Ad_Configurations
   result = api_instance.get_account_ad_configurations(account_id, content_type, x_api_key)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling SSAIApi->get_account_ad_configurations: #{e}"
 end
 ```
@@ -325,9 +325,9 @@ Get an ad application.
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::SSAIApi.new
+api_instance = BrightcoveLive::SSAIApi.new
 application_id = 'application_id_example' # String | The ad application id
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
@@ -336,7 +336,7 @@ begin
   #Get_Ad_Configuration
   result = api_instance.get_ad_configuration(application_id, content_type, x_api_key)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling SSAIApi->get_ad_configuration: #{e}"
 end
 ```
@@ -374,9 +374,9 @@ Get all beacon sets for an account.
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::SSAIApi.new
+api_instance = BrightcoveLive::SSAIApi.new
 account_id = 'account_id_example' # String | Live account ID
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
@@ -385,7 +385,7 @@ begin
   #Get_beacon_sets
   result = api_instance.get_beacon_sets(account_id, content_type, x_api_key)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling SSAIApi->get_beacon_sets: #{e}"
 end
 ```
@@ -423,9 +423,9 @@ Get all beacon sets for the requesting user.
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::SSAIApi.new
+api_instance = BrightcoveLive::SSAIApi.new
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
 
@@ -433,7 +433,7 @@ begin
   #Get_beacon_sets_for_user
   result = api_instance.get_beacon_sets_for_user(content_type, x_api_key)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling SSAIApi->get_beacon_sets_for_user: #{e}"
 end
 ```
@@ -470,9 +470,9 @@ Get all beacon sets for an account.
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::SSAIApi.new
+api_instance = BrightcoveLive::SSAIApi.new
 account_id = 'account_id_example' # String | Live account ID
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
@@ -481,7 +481,7 @@ begin
   #Get_slates_for_account
   result = api_instance.get_slates_for_account(account_id, content_type, x_api_key)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling SSAIApi->get_slates_for_account: #{e}"
 end
 ```
@@ -519,9 +519,9 @@ Get Slate Media Source Assets for the current user.
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::SSAIApi.new
+api_instance = BrightcoveLive::SSAIApi.new
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
 
@@ -529,7 +529,7 @@ begin
   #Get_User_Slate_Media_Source_Assets
   result = api_instance.get_user_slate_media_source_assets(content_type, x_api_key)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling SSAIApi->get_user_slate_media_source_assets: #{e}"
 end
 ```
@@ -566,9 +566,9 @@ Get ad applications for the current user.
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::SSAIApi.new
+api_instance = BrightcoveLive::SSAIApi.new
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
 
@@ -576,7 +576,7 @@ begin
   #Get_Ad_Configurations
   result = api_instance.getuser_ad_configurations(content_type, x_api_key)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling SSAIApi->getuser_ad_configurations: #{e}"
 end
 ```
@@ -613,18 +613,18 @@ Ingest Slate Media Source Asset.
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::SSAIApi.new
+api_instance = BrightcoveLive::SSAIApi.new
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
-ingest_slate_media_source_assetbody = OpenapiClient::IngestSlateMediaSourceAssetbody.new # IngestSlateMediaSourceAssetbody | Ingest Slate Media Source Asset.
+ingest_slate_media_source_assetbody = BrightcoveLive::IngestSlateMediaSourceAssetbody.new # IngestSlateMediaSourceAssetbody | Ingest Slate Media Source Asset.
 
 begin
   #Ingest_Slate_Media_Source_Asset
   result = api_instance.ingest_slate_media_source_asset(content_type, x_api_key, ingest_slate_media_source_assetbody)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling SSAIApi->ingest_slate_media_source_asset: #{e}"
 end
 ```
@@ -662,19 +662,19 @@ Update a configuration for server-side ad application.
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::SSAIApi.new
+api_instance = BrightcoveLive::SSAIApi.new
 application_id = 'application_id_example' # String | The ad application id
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
-update_ad_configurationbody = OpenapiClient::UpdateAdConfigurationbody.new # UpdateAdConfigurationbody | Update a configuration for server-side ad application.
+update_ad_configurationbody = BrightcoveLive::UpdateAdConfigurationbody.new # UpdateAdConfigurationbody | Update a configuration for server-side ad application.
 
 begin
   #Update_Ad_Configuration
   result = api_instance.update_ad_configuration(application_id, content_type, x_api_key, update_ad_configurationbody)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling SSAIApi->update_ad_configuration: #{e}"
 end
 ```
@@ -713,19 +713,19 @@ Updates a beacon set.
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::SSAIApi.new
+api_instance = BrightcoveLive::SSAIApi.new
 beacon_set_id = 'beacon_set_id_example' # String | A slate media asset ID
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
-update_beacon_setbody = OpenapiClient::UpdateBeaconSetbody.new # UpdateBeaconSetbody | Updates a beacon set.
+update_beacon_setbody = BrightcoveLive::UpdateBeaconSetbody.new # UpdateBeaconSetbody | Updates a beacon set.
 
 begin
   #Update_beacon_set
   result = api_instance.update_beacon_set(beacon_set_id, content_type, x_api_key, update_beacon_setbody)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling SSAIApi->update_beacon_set: #{e}"
 end
 ```

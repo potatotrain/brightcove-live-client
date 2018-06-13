@@ -1,4 +1,4 @@
-# OpenapiClient::Job
+# BrightcoveLive::Job
 
 ## Properties
 Name | Type | Description | Notes

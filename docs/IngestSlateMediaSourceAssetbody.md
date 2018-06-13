@@ -1,4 +1,4 @@
-# OpenapiClient::IngestSlateMediaSourceAssetbody
+# BrightcoveLive::IngestSlateMediaSourceAssetbody
 
 ## Properties
 Name | Type | Description | Notes

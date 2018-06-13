@@ -1,4 +1,4 @@
-# OpenapiClient::GetSlateMediaSourceAssets200
+# BrightcoveLive::GetSlateMediaSourceAssets200
 
 ## Properties
 Name | Type | Description | Notes

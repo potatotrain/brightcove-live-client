@@ -1,4 +1,4 @@
-# OpenapiClient::ListCredentials200
+# BrightcoveLive::ListCredentials200
 
 ## Properties
 Name | Type | Description | Notes

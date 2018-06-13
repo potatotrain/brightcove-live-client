@@ -1,4 +1,4 @@
-# OpenapiClient::InsertId3TimedMetadata200
+# BrightcoveLive::InsertId3TimedMetadata200
 
 ## Properties
 Name | Type | Description | Notes

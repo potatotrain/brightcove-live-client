@@ -1,4 +1,4 @@
-# OpenapiClient::ApplicationApplicationAdConfigurationAdConfigurationTransforms
+# BrightcoveLive::ApplicationApplicationAdConfigurationAdConfigurationTransforms
 
 ## Properties
 Name | Type | Description | Notes

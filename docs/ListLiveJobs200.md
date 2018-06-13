@@ -1,4 +1,4 @@
-# OpenapiClient::ListLiveJobs200
+# BrightcoveLive::ListLiveJobs200
 
 ## Properties
 Name | Type | Description | Notes

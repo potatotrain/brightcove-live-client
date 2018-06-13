@@ -1,4 +1,4 @@
-# OpenapiClient::Id3Tag
+# BrightcoveLive::Id3Tag
 
 ## Properties
 Name | Type | Description | Notes

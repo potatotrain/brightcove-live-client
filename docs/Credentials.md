@@ -1,4 +1,4 @@
-# OpenapiClient::Credentials
+# BrightcoveLive::Credentials
 
 ## Properties
 Name | Type | Description | Notes

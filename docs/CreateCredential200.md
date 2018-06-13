@@ -1,4 +1,4 @@
-# OpenapiClient::CreateCredential200
+# BrightcoveLive::CreateCredential200
 
 ## Properties
 Name | Type | Description | Notes

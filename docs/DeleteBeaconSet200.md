@@ -1,4 +1,4 @@
-# OpenapiClient::DeleteBeaconSet200
+# BrightcoveLive::DeleteBeaconSet200
 
 ## Properties
 Name | Type | Description | Notes

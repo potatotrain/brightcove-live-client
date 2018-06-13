@@ -1,4 +1,4 @@
-# OpenapiClient::CreateVodClipbodyOutputsVideocloudVideoSchedule
+# BrightcoveLive::CreateVodClipbodyOutputsVideocloudVideoSchedule
 
 ## Properties
 Name | Type | Description | Notes

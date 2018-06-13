@@ -1,4 +1,4 @@
-# OpenapiClient::UpdateBeaconSetbody
+# BrightcoveLive::UpdateBeaconSetbody
 
 ## Properties
 Name | Type | Description | Notes

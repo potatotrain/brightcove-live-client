@@ -1,4 +1,4 @@
-# OpenapiClient::CreateVodClipbodyOutputsVideocloudVideoGeo
+# BrightcoveLive::CreateVodClipbodyOutputsVideocloudVideoGeo
 
 ## Properties
 Name | Type | Description | Notes

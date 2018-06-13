@@ -1,4 +1,4 @@
-# OpenapiClient::CreateVodClip200
+# BrightcoveLive::CreateVodClip200
 
 ## Properties
 Name | Type | Description | Notes

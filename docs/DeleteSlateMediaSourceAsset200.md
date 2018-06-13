@@ -1,4 +1,4 @@
-# OpenapiClient::DeleteSlateMediaSourceAsset200
+# BrightcoveLive::DeleteSlateMediaSourceAsset200
 
 ## Properties
 Name | Type | Description | Notes

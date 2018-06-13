@@ -1,4 +1,4 @@
-# OpenapiClient::CancelLiveJob200
+# BrightcoveLive::CancelLiveJob200
 
 ## Properties
 Name | Type | Description | Notes

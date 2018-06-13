@@ -1,4 +1,4 @@
-# OpenapiClient::UpdateCredentialbody
+# BrightcoveLive::UpdateCredentialbody
 
 ## Properties
 Name | Type | Description | Notes

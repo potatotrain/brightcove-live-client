@@ -1,4 +1,4 @@
-# OpenapiClient::Path
+# BrightcoveLive::Path
 
 ## Properties
 Name | Type | Description | Notes

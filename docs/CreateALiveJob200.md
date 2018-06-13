@@ -1,4 +1,4 @@
-# OpenapiClient::CreateALiveJob200
+# BrightcoveLive::CreateALiveJob200
 
 ## Properties
 Name | Type | Description | Notes

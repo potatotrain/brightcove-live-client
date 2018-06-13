@@ -1,4 +1,4 @@
-# OpenapiClient::ManualAdCuePointInsertion200
+# BrightcoveLive::ManualAdCuePointInsertion200
 
 ## Properties
 Name | Type | Description | Notes

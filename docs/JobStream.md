@@ -1,4 +1,4 @@
-# OpenapiClient::JobStream
+# BrightcoveLive::JobStream
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# OpenapiClient::BeaconSets
+# BrightcoveLive::BeaconSets
 
 ## Properties
 Name | Type | Description | Notes

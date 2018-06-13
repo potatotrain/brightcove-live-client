@@ -1,4 +1,4 @@
-# OpenapiClient::CreateALiveJobbodyAddCdns
+# BrightcoveLive::CreateALiveJobbodyAddCdns
 
 ## Properties
 Name | Type | Description | Notes

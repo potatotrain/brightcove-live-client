@@ -1,4 +1,4 @@
-# OpenapiClient::GetBeaconSets200
+# BrightcoveLive::GetBeaconSets200
 
 ## Properties
 Name | Type | Description | Notes

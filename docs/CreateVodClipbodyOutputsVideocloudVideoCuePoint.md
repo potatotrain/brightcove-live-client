@@ -1,4 +1,4 @@
-# OpenapiClient::CreateVodClipbodyOutputsVideocloudVideoCuePoint
+# BrightcoveLive::CreateVodClipbodyOutputsVideocloudVideoCuePoint
 
 ## Properties
 Name | Type | Description | Notes

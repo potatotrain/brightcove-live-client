@@ -1,4 +1,4 @@
-# OpenapiClient::Type
+# BrightcoveLive::Type
 
 ## Properties
 Name | Type | Description | Notes

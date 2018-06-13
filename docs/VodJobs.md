@@ -1,4 +1,4 @@
-# OpenapiClient::VodJobs
+# BrightcoveLive::VodJobs
 
 ## Properties
 Name | Type | Description | Notes

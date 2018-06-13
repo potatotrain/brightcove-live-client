@@ -1,4 +1,4 @@
-# OpenapiClient::CreateALiveJobbodyOutputsNotifications
+# BrightcoveLive::CreateALiveJobbodyOutputsNotifications
 
 ## Properties
 Name | Type | Description | Notes

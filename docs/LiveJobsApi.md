@@ -1,4 +1,4 @@
-# OpenapiClient::LiveJobsApi
+# BrightcoveLive::LiveJobsApi
 
 All URIs are relative to *https://api.bcovlive.io*
 
@@ -24,9 +24,9 @@ Activate SEP (static entry point) Stream
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::LiveJobsApi.new
+api_instance = BrightcoveLive::LiveJobsApi.new
 job_id = 'job_id_example' # String | Live job ID
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
@@ -35,7 +35,7 @@ begin
   #Activate_SEP_Stream
   result = api_instance.activate_sep_stream(job_id, content_type, x_api_key)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling LiveJobsApi->activate_sep_stream: #{e}"
 end
 ```
@@ -73,9 +73,9 @@ Cancel a live stream
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::LiveJobsApi.new
+api_instance = BrightcoveLive::LiveJobsApi.new
 job_id = 'job_id_example' # String | Live job ID
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
 
@@ -83,7 +83,7 @@ begin
   #Cancel_Live_Job
   result = api_instance.cancel_live_job(job_id, x_api_key)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling LiveJobsApi->cancel_live_job: #{e}"
 end
 ```
@@ -120,18 +120,18 @@ Create a live stream
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::LiveJobsApi.new
+api_instance = BrightcoveLive::LiveJobsApi.new
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
-create_a_live_jobbody = OpenapiClient::CreateALiveJobbody.new # CreateALiveJobbody | Create a live stream
+create_a_live_jobbody = BrightcoveLive::CreateALiveJobbody.new # CreateALiveJobbody | Create a live stream
 
 begin
   #Create_a_Live_Job
   result = api_instance.create_a_live_job(content_type, x_api_key, create_a_live_jobbody)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling LiveJobsApi->create_a_live_job: #{e}"
 end
 ```
@@ -169,9 +169,9 @@ Deactivate SEP (static entry point) Stream
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::LiveJobsApi.new
+api_instance = BrightcoveLive::LiveJobsApi.new
 job_id = 'job_id_example' # String | Live job ID
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
@@ -180,7 +180,7 @@ begin
   #Deactivate_SEP_Stream
   result = api_instance.deactivate_sep_stream(job_id, content_type, x_api_key)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling LiveJobsApi->deactivate_sep_stream: #{e}"
 end
 ```
@@ -218,9 +218,9 @@ Get Live Job Details
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::LiveJobsApi.new
+api_instance = BrightcoveLive::LiveJobsApi.new
 job_id = 'job_id_example' # String | Live job ID
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
@@ -229,7 +229,7 @@ begin
   #Get_Live_Job_Details
   result = api_instance.get_live_job_details(job_id, content_type, x_api_key)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling LiveJobsApi->get_live_job_details: #{e}"
 end
 ```
@@ -267,19 +267,19 @@ Inserts an ID3 timed metadata tag for an ongoing job. Note that: 1) If using tim
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::LiveJobsApi.new
+api_instance = BrightcoveLive::LiveJobsApi.new
 job_id = 'job_id_example' # String | Live job ID
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
-insert_id3_timed_metadatabody = OpenapiClient::InsertId3TimedMetadatabody.new # InsertId3TimedMetadatabody | Inserts an ID3 timed metadata tag for an ongoing job. Note that: 1) If using timecode property, the job only stores the most recent request for insertion; 2) If using timecode property, the encoder must be sending SMPTE-formatted (HH:MM:SS:FF) timecode stored in the tc property via OnFI
+insert_id3_timed_metadatabody = BrightcoveLive::InsertId3TimedMetadatabody.new # InsertId3TimedMetadatabody | Inserts an ID3 timed metadata tag for an ongoing job. Note that: 1) If using timecode property, the job only stores the most recent request for insertion; 2) If using timecode property, the encoder must be sending SMPTE-formatted (HH:MM:SS:FF) timecode stored in the tc property via OnFI
 
 begin
   #Insert_ID3_timed_metadata
   result = api_instance.insert_id3_timed_metadata(job_id, content_type, x_api_key, insert_id3_timed_metadatabody)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling LiveJobsApi->insert_id3_timed_metadata: #{e}"
 end
 ```
@@ -318,9 +318,9 @@ List live jobs - for additional useful information on the search filters, see [G
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::LiveJobsApi.new
+api_instance = BrightcoveLive::LiveJobsApi.new
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
 opts = {
@@ -343,7 +343,7 @@ begin
   #List_Live_Jobs
   result = api_instance.list_live_jobs(content_type, x_api_key, opts)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling LiveJobsApi->list_live_jobs: #{e}"
 end
 ```
@@ -393,19 +393,19 @@ Inserts a manual Cue-Out with a duration to the Live ingest point.
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::LiveJobsApi.new
+api_instance = BrightcoveLive::LiveJobsApi.new
 job_id = 'job_id_example' # String | Live job ID
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
-manual_ad_cue_point_insertionbody = OpenapiClient::ManualAdCuePointInsertionbody.new # ManualAdCuePointInsertionbody | Inserts a manual Cue-Out with a duration to the Live ingest point.
+manual_ad_cue_point_insertionbody = BrightcoveLive::ManualAdCuePointInsertionbody.new # ManualAdCuePointInsertionbody | Inserts a manual Cue-Out with a duration to the Live ingest point.
 
 begin
   #Manual_Ad_Cue_Point_Insertion
   result = api_instance.manual_ad_cue_point_insertion(job_id, content_type, x_api_key, manual_ad_cue_point_insertionbody)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling LiveJobsApi->manual_ad_cue_point_insertion: #{e}"
 end
 ```

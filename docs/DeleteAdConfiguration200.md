@@ -1,4 +1,4 @@
-# OpenapiClient::DeleteAdConfiguration200
+# BrightcoveLive::DeleteAdConfiguration200
 
 ## Properties
 Name | Type | Description | Notes

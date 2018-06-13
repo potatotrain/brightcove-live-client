@@ -1,4 +1,4 @@
-# OpenapiClient::ClipsApi
+# BrightcoveLive::ClipsApi
 
 All URIs are relative to *https://api.bcovlive.io*
 
@@ -19,18 +19,18 @@ Create VOD clips from a Live Stream.
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::ClipsApi.new
+api_instance = BrightcoveLive::ClipsApi.new
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
-create_vod_clipbody = OpenapiClient::CreateVodClipbody.new # CreateVodClipbody | Create VOD clips from a Live Stream.
+create_vod_clipbody = BrightcoveLive::CreateVodClipbody.new # CreateVodClipbody | Create VOD clips from a Live Stream.
 
 begin
   #Create_VOD_Clip
   result = api_instance.create_vod_clip(content_type, x_api_key, create_vod_clipbody)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling ClipsApi->create_vod_clip: #{e}"
 end
 ```
@@ -68,19 +68,19 @@ Create VOD clips from a Live Stream.
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::ClipsApi.new
+api_instance = BrightcoveLive::ClipsApi.new
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
 job_id = 'job_id_example' # String | Live job ID
-create_vod_clipbody2 = OpenapiClient::CreateVodClipbody2.new # CreateVodClipbody2 | Create VOD clips from a Live Stream.
+create_vod_clipbody2 = BrightcoveLive::CreateVodClipbody2.new # CreateVodClipbody2 | Create VOD clips from a Live Stream.
 
 begin
   #Create_VOD_Clip2
   result = api_instance.create_vod_clip2(content_type, x_api_key, job_id, create_vod_clipbody2)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling ClipsApi->create_vod_clip2: #{e}"
 end
 ```
@@ -119,9 +119,9 @@ List VOD clips for a Live Stream - for additional useful information on the sear
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::ClipsApi.new
+api_instance = BrightcoveLive::ClipsApi.new
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
 job_id = 'job_id_example' # String | Live job ID
@@ -145,7 +145,7 @@ begin
   #List_VOD_Clips
   result = api_instance.list_vod_clips(content_type, x_api_key, job_id, opts)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling ClipsApi->list_vod_clips: #{e}"
 end
 ```

@@ -1,4 +1,4 @@
-# OpenapiClient::CreateVodClipbodyOutputs
+# BrightcoveLive::CreateVodClipbodyOutputs
 
 ## Properties
 Name | Type | Description | Notes

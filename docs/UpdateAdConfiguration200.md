@@ -1,4 +1,4 @@
-# OpenapiClient::UpdateAdConfiguration200
+# BrightcoveLive::UpdateAdConfiguration200
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# OpenapiClient::JobOutputMediaFiles
+# BrightcoveLive::JobOutputMediaFiles
 
 ## Properties
 Name | Type | Description | Notes

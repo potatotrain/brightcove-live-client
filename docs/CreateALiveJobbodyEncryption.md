@@ -1,4 +1,4 @@
-# OpenapiClient::CreateALiveJobbodyEncryption
+# BrightcoveLive::CreateALiveJobbodyEncryption
 
 ## Properties
 Name | Type | Description | Notes

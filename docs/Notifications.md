@@ -1,4 +1,4 @@
-# OpenapiClient::Notifications
+# BrightcoveLive::Notifications
 
 ## Properties
 Name | Type | Description | Notes

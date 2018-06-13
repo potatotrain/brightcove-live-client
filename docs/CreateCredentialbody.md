@@ -1,4 +1,4 @@
-# OpenapiClient::CreateCredentialbody
+# BrightcoveLive::CreateCredentialbody
 
 ## Properties
 Name | Type | Description | Notes

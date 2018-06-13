@@ -1,4 +1,4 @@
-# OpenapiClient::Outputs
+# BrightcoveLive::Outputs
 
 ## Properties
 Name | Type | Description | Notes

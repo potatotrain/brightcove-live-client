@@ -1,4 +1,4 @@
-# OpenapiClient::AddCdns
+# BrightcoveLive::AddCdns
 
 ## Properties
 Name | Type | Description | Notes

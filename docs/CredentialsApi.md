@@ -1,4 +1,4 @@
-# OpenapiClient::CredentialsApi
+# BrightcoveLive::CredentialsApi
 
 All URIs are relative to *https://api.bcovlive.io*
 
@@ -20,18 +20,18 @@ Create a new credential.
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::CredentialsApi.new
+api_instance = BrightcoveLive::CredentialsApi.new
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
-create_credentialbody = OpenapiClient::CreateCredentialbody.new # CreateCredentialbody | Create a new credential.
+create_credentialbody = BrightcoveLive::CreateCredentialbody.new # CreateCredentialbody | Create a new credential.
 
 begin
   #Create_Credential
   result = api_instance.create_credential(content_type, x_api_key, create_credentialbody)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling CredentialsApi->create_credential: #{e}"
 end
 ```
@@ -69,9 +69,9 @@ Delete a credential.
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::CredentialsApi.new
+api_instance = BrightcoveLive::CredentialsApi.new
 credential_id = 'credential_id_example' # String | A credential ID
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
@@ -79,7 +79,7 @@ x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
 begin
   #Delete_Credential
   api_instance.delete_credential(credential_id, content_type, x_api_key)
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling CredentialsApi->delete_credential: #{e}"
 end
 ```
@@ -117,9 +117,9 @@ This endpoint can be used to get user credentials for a given user provided one 
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::CredentialsApi.new
+api_instance = BrightcoveLive::CredentialsApi.new
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
 
@@ -127,7 +127,7 @@ begin
   #List_Credentials
   result = api_instance.list_credentials(content_type, x_api_key)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling CredentialsApi->list_credentials: #{e}"
 end
 ```
@@ -164,19 +164,19 @@ Update a credential.
 ### Example
 ```ruby
 # load the gem
-require 'openapi_client'
+require 'brightcove_live'
 
-api_instance = OpenapiClient::CredentialsApi.new
+api_instance = BrightcoveLive::CredentialsApi.new
 credential_id = 'credential_id_example' # String | A credential ID
 content_type = 'application/json' # String | Content-Type: application/json
 x_api_key = 'x_api_key_example' # String | X-API-KEY: {APIKey}
-update_credentialbody = OpenapiClient::UpdateCredentialbody.new # UpdateCredentialbody | Update a credential.
+update_credentialbody = BrightcoveLive::UpdateCredentialbody.new # UpdateCredentialbody | Update a credential.
 
 begin
   #Update_Credential
   result = api_instance.update_credential(credential_id, content_type, x_api_key, update_credentialbody)
   p result
-rescue OpenapiClient::ApiError => e
+rescue BrightcoveLive::ApiError => e
   puts "Exception when calling CredentialsApi->update_credential: #{e}"
 end
 ```

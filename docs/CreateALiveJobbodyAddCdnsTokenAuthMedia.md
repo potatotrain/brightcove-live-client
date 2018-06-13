@@ -1,4 +1,4 @@
-# OpenapiClient::CreateALiveJobbodyAddCdnsTokenAuthMedia
+# BrightcoveLive::CreateALiveJobbodyAddCdnsTokenAuthMedia
 
 ## Properties
 Name | Type | Description | Notes

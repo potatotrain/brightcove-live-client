@@ -1,4 +1,4 @@
-# OpenapiClient::DeactivateSepStream200
+# BrightcoveLive::DeactivateSepStream200
 
 ## Properties
 Name | Type | Description | Notes
