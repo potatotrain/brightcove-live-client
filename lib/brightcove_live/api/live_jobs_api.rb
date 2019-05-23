@@ -212,6 +212,66 @@ module BrightcoveLive
       end
       return data, status_code, headers
     end
+    # Stop_Live_Job
+    # End a live stream 
+    # @param content_type Content-Type: application/json
+    # @param x_api_key X-API-KEY: {APIKey}
+    # @param job_id
+    # @return [StopLiveJob200]
+    def stop_live_job(content_type, x_api_key, job_id)
+      data, _status_code, _headers = stop_live_job_with_http_info(content_type, x_api_key, job_id)
+      data
+    end
+
+    # Stop_Live_Job
+    # End a live stream 
+    # @param content_type Content-Type: application/json
+    # @param x_api_key X-API-KEY: {APIKey}
+    # @param job_id
+    # @return [Array<(StopLiveJob200, Fixnum, Hash)>] StopLiveJob200 data, response status code and response headers
+    def stop_live_job_with_http_info(content_type, x_api_key, job_id)
+      if @api_client.config.debugging
+        @api_client.config.logger.debug 'Calling API: LiveJobsApi.stop_live_job ...'
+      end
+      # verify the required parameter 'content_type' is set
+      if @api_client.config.client_side_validation && content_type.nil?
+        fail ArgumentError, "Missing the required parameter 'content_type' when calling LiveJobsApi.stop_live_job"
+      end
+      # verify the required parameter 'x_api_key' is set
+      if @api_client.config.client_side_validation && x_api_key.nil?
+        fail ArgumentError, "Missing the required parameter 'x_api_key' when calling LiveJobsApi.stop_live_job"
+      end
+      # resource path
+      local_var_path = "/v1/jobs/#{job_id}/stop"
+
+      # query parameters
+      query_params = {}
+
+      # header parameters
+      header_params = {}
+      # HTTP header 'Accept' (if needed)
+      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      # HTTP header 'Content-Type'
+      header_params['Content-Type'] = @api_client.select_header_content_type(['application/json'])
+      header_params[:'Content-Type'] = content_type
+      header_params[:'X-API-KEY'] = x_api_key
+
+      # form parameters
+      form_params = {}
+
+      # http body (model)
+      auth_names = []
+      data, status_code, headers = @api_client.call_api(:PUT, local_var_path,
+        :header_params => header_params,
+        :query_params => query_params,
+        :form_params => form_params,
+        :auth_names => auth_names,
+        :return_type => 'StopLiveJob200')
+      if @api_client.config.debugging
+        @api_client.config.logger.debug "API called: LiveJobsApi#stop_live_job\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+      end
+      return data, status_code, headers
+    end
     # Deactivate_SEP_Stream
     # Deactivate SEP (static entry point) Stream 
     # @param job_id Live job ID
