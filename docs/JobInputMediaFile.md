@@ -1,6 +1,7 @@
-# BrightcoveLive::JobInputMediaFile
+# OpenapiClient::JobInputMediaFile
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **audio_bitrate_in_kbps** | **Float** | Audio bitrate of the input media file | [optional] 
@@ -20,11 +21,41 @@ Name | Type | Description | Notes
 **id** | **String** | System id of the input file | [optional] 
 **md5_checksum** | **String** | Checksum for the input file | [optional] 
 **state** | **String** | Current state of input file processing | [optional] 
+**total_bitrate_in_kbps** | **Float** | Total bitrate of the input media file | [optional] 
 **updated_at** | **String** | ISO 8601 date-time string representing when the input file was last modified | [optional] 
+**url** | **String** | URL for the input media file | [optional] 
 **video_bitrate_in_kbps** | **Float** | Video bitrate of the input media file | [optional] 
 **video_codec** | **String** | Video codec of the input media file | [optional] 
 **width** | **Float** | Frame width of the input media file | [optional] 
-**total_bitrate_in_kbps** | **Float** | Total bitrate of the input media file | [optional] 
-**url** | **String** | URL for the input media file | [optional] 
+
+## Code Sample
+
+```ruby
+require 'OpenapiClient'
+
+instance = OpenapiClient::JobInputMediaFile.new(audio_bitrate_in_kbps: null,
+                                 audio_codec: null,
+                                 audio_sample_rate: null,
+                                 audio_tracks: null,
+                                 channels: null,
+                                 created_at: null,
+                                 duration_in_ms: null,
+                                 error_class: null,
+                                 error_message: null,
+                                 file_size_bytes: null,
+                                 finished_at: null,
+                                 format: null,
+                                 frame_rate: null,
+                                 height: null,
+                                 id: null,
+                                 md5_checksum: null,
+                                 state: null,
+                                 total_bitrate_in_kbps: null,
+                                 updated_at: null,
+                                 url: null,
+                                 video_bitrate_in_kbps: null,
+                                 video_codec: null,
+                                 width: null)
+```
 
 
